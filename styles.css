@@ -1,0 +1,17 @@
+.list-group {
+    cursor: pointer;
+  }
+  
+  h1,
+  input {
+    margin-bottom: 20px;
+  }
+  
+.myList{
+    background-color: rgba(250, 220, 69, 0.815);
+    text-decoration: underline;
+}
+
+.removeTask{
+    text-decoration: line-through;
+}
