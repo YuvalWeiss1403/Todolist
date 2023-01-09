@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); </style>
     <link href="/styles.css" rel="stylesheet" />
+
   </head>
   <body>
 
     <div class="myList">
       <h1>My To do List</h1>
+      <!-- onsubmit="addTodo(event)" -->
       <form onsubmit="addTodo(event)">
-        <div>
+        <div class="add-task" >
           <input id="user-new-todo-input" />
-          <div>
-            <button type="submit">Add Todo</button>
-          </div>
+          <button type="submit">Add Todo</button>
+        </div>
         </div>
       </form>
-      <ul id="todo-list" class="list-group"></ul>
-      <div>Good Luck!</div>
+      <ul id="todo-list"></ul>
+      <footer class="good-luck">Good Luck!</footer>
     </div>
 
 
